@@ -1,4 +1,4 @@
-#!/nin/bash
+#!/bin/bash
 
 
 #TODO read content of openssl.cnf into an array
