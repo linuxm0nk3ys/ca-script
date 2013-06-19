@@ -1,0 +1,16 @@
+Version 1.1.0:
+--------------
+- FIXED: create a server certificate was not possible, due to wrong configuration in openssl.cnf
+- FIXED: some typo's
+- ADDED: subject alternative names to server certificates
+- ADDED: Export a certificate to PKCS#12 format
+- ADDED: Verfiy a certificate
+- ADDED: Print a certificate to stdout.
+- CHANGED: verify/display certificate are two different options now
+- REMOVED: possibility to sign proxy server certificates
+
+
+Version 1.0.1:
+--------------
+- FIXED: create a Sub CA certificate was not possible, due to an undefined variable
+- ADDED: pathlen constraint to root_ca (value 1) and subca_cert (value 0)
