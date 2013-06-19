@@ -31,6 +31,9 @@ To start the script just start the ca.sh.
 
 The script "ca.sh" will read the openssl.cnf and parse it to get the CA sections (You can change the path to the openssl.cnf by changing the value of the "OPENSSLCONF" in "ca.sh"). 
 
+You can change the default values for most of the parameters in "conf.sh".
+
+
 Signed certificates will be stored in "newcerts" and "certs". The name of the certificate in "newcerts" will be the actual serial number of the CA. The name of certificates in "certs" will be renamed to the common name.
 
 Exported certificates "PKCS#12" will be stored in "private".
