@@ -16,6 +16,11 @@ SETCOLOR_FAILURE="echo -en \\033[1;31m"
 SETCOLOR_WARNING="echo -en \\033[1;33m"
 SETCOLOR_NORMAL="echo -en \\033[1;39m"
 
+#
+#   These functions are copies from the
+#   functions.sh (located at /etc/init.d [Slackware])
+#   and are not written by me.
+#
 
 #
 #   TODO
@@ -76,6 +81,10 @@ echo_warning() {
     return 0
 }
 
+
+#
+#   written by funkym0nk3y
+#
 
 #
 #   Prints some debug information
